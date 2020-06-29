@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Описание сайта">
+  <meta name="keywords" content="Ключевые слова">
+  <link rel="icon" href="img/favicon.ico">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.min.css">
+
+  <title>Everget</title>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- HEADER -->
+
+    <header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="header-burger">
+        <div class="header-burger__icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="header-burger__menu">
+          <a class="header-burger__links" href="index.html">Главная</a>
+          <a class="header-burger__links" href="#decision">Как это работает</a>
+          <a class="header-burger__links" href="#steps">3 простых шага</a>
+          <a class="header-burger__links" href="#reviews">Отзывы</a>
+          <a class="header-burger__links user-cabinet" href="#">Личный кабинет</a>
+        </nav>
+      </div>
+      <div class="header-logo">
+        <a href="index.html">
+          <svg width="130" height="34" viewBox="0 0 130 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+            data-llp-composed="true" id="Vector" class="lazy-line-painter">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M6.4996 0.499512L11.8996 5.89951C7.42609 10.373 7.42609 17.626 11.8996 22.0995C16.3731 26.573 23.6261 26.573 28.0996 22.0995C32.5731 17.626 32.5731 10.373 28.0996 5.89951L33.4996 0.499512C40.9554 7.95536 40.9554 20.0437 33.4996 27.4995C26.0438 34.9554 13.9554 34.9554 6.4996 27.4995C-0.956246 20.0437 -0.956246 7.95536 6.4996 0.499512Z"
+              fill="white" data-llp-id="Vector-0" data-llp-duration="300" data-llp-delay="1500" fill-opacity="0"
+              style="" />
+            <path
+              d="M59.1564 16.7695H52.6876V20.8359H60.3282V23.9999H48.5743V6.93744H60.3517V10.1132H52.6876V13.7109H59.1564V16.7695Z"
+              fill="white" data-llp-id="Vector-1" data-llp-duration="300" data-llp-delay="1800" fill-opacity="0"
+              style="" />
+            <path
+              d="M66.5743 19.3007L68.5782 11.3203H72.7384L68.6017 23.9999H64.5704L60.4337 11.3203H64.6056L66.5743 19.3007Z"
+              fill="white" data-llp-id="Vector-2" data-llp-duration="300" data-llp-delay="2100" fill-opacity="0"
+              style="" />
+            <path
+              d="M79.8868 24.2343C77.9415 24.2343 76.3673 23.6562 75.1642 22.4999C73.9611 21.3359 73.3595 19.8242 73.3595 17.9648V17.6367C73.3595 16.3398 73.5978 15.1953 74.0743 14.2031C74.5587 13.2109 75.2618 12.4453 76.1837 11.9062C77.1056 11.3593 78.1993 11.0859 79.465 11.0859C81.2462 11.0859 82.6525 11.6406 83.6837 12.7499C84.715 13.8515 85.2306 15.3906 85.2306 17.3671V18.9023H77.379C77.5196 19.6132 77.8282 20.1718 78.3048 20.5781C78.7814 20.9843 79.3986 21.1874 80.1564 21.1874C81.4064 21.1874 82.3829 20.7499 83.0861 19.8749L84.8907 22.0078C84.3986 22.6874 83.6993 23.2304 82.7931 23.6367C81.8946 24.0351 80.9259 24.2343 79.8868 24.2343ZM79.4415 14.1328C78.2853 14.1328 77.5978 14.8984 77.379 16.4296H81.3634V16.1249C81.379 15.4921 81.2189 15.0039 80.8829 14.6601C80.547 14.3085 80.0665 14.1328 79.4415 14.1328Z"
+              fill="white" data-llp-id="Vector-3" data-llp-duration="300" data-llp-delay="2400" fill-opacity="0"
+              style="" />
+            <path
+              d="M94.5001 14.8945L93.1993 14.8007C91.9571 14.8007 91.1603 15.1914 90.8087 15.9726V23.9999H86.8595V11.3203H90.5626L90.6915 12.9492C91.3556 11.707 92.2814 11.0859 93.4689 11.0859C93.8907 11.0859 94.2579 11.1328 94.5704 11.2265L94.5001 14.8945Z"
+              fill="white" data-llp-id="Vector-4" data-llp-duration="300" data-llp-delay="2700" fill-opacity="0"
+              style="" />
+            <path
+              d="M95.2267 17.5664C95.2267 16.2851 95.4376 15.1523 95.8595 14.1679C96.2814 13.1835 96.8868 12.4257 97.6759 11.8945C98.465 11.3554 99.3829 11.0859 100.43 11.0859C101.75 11.0859 102.781 11.5312 103.524 12.4218L103.664 11.3203H107.25V23.5195C107.25 24.6367 106.988 25.6054 106.465 26.4257C105.949 27.2539 105.199 27.8867 104.215 28.3242C103.231 28.7695 102.09 28.9921 100.793 28.9921C99.8634 28.9921 98.9611 28.8164 98.0861 28.4648C97.2189 28.1132 96.5548 27.6562 96.0939 27.0937L97.7462 24.7734C98.4806 25.6406 99.4493 26.0742 100.652 26.0742C102.402 26.0742 103.277 25.1757 103.277 23.3789V22.9804C102.52 23.8164 101.563 24.2343 100.406 24.2343C98.8595 24.2343 97.6095 23.6445 96.6564 22.4648C95.7032 21.2773 95.2267 19.6914 95.2267 17.707V17.5664ZM99.1876 17.8124C99.1876 18.8515 99.3829 19.6757 99.7736 20.2851C100.164 20.8867 100.711 21.1874 101.414 21.1874C102.266 21.1874 102.887 20.9023 103.277 20.332V14.9999C102.895 14.4218 102.281 14.1328 101.438 14.1328C100.734 14.1328 100.184 14.4492 99.7853 15.082C99.3868 15.707 99.1876 16.6171 99.1876 17.8124Z"
+              fill="white" data-llp-id="Vector-5" data-llp-duration="300" data-llp-delay="3000" fill-opacity="0"
+              style="" />
+            <path
+              d="M115.629 24.2343C113.684 24.2343 112.109 23.6562 110.906 22.4999C109.703 21.3359 109.102 19.8242 109.102 17.9648V17.6367C109.102 16.3398 109.34 15.1953 109.817 14.2031C110.301 13.2109 111.004 12.4453 111.926 11.9062C112.848 11.3593 113.942 11.0859 115.207 11.0859C116.988 11.0859 118.395 11.6406 119.426 12.7499C120.457 13.8515 120.973 15.3906 120.973 17.3671V18.9023H113.121C113.262 19.6132 113.57 20.1718 114.047 20.5781C114.524 20.9843 115.141 21.1874 115.899 21.1874C117.149 21.1874 118.125 20.7499 118.828 19.8749L120.633 22.0078C120.141 22.6874 119.442 23.2304 118.535 23.6367C117.637 24.0351 116.668 24.2343 115.629 24.2343ZM115.184 14.1328C114.027 14.1328 113.34 14.8984 113.121 16.4296H117.106V16.1249C117.121 15.4921 116.961 15.0039 116.625 14.6601C116.289 14.3085 115.809 14.1328 115.184 14.1328Z"
+              fill="white" data-llp-id="Vector-6" data-llp-duration="300" data-llp-delay="3300" fill-opacity="0"
+              style="" />
+            <path
+              d="M127.172 8.16791V11.3203H129.258V14.0624H127.172V19.8632C127.172 20.3398 127.258 20.6718 127.43 20.8593C127.602 21.0468 127.942 21.1406 128.449 21.1406C128.84 21.1406 129.168 21.1171 129.434 21.0703V23.8945C128.723 24.121 127.981 24.2343 127.207 24.2343C125.848 24.2343 124.844 23.914 124.195 23.2734C123.547 22.6328 123.223 21.6601 123.223 20.3554V14.0624H121.606V11.3203H123.223V8.16791H127.172Z"
+              fill="white" data-llp-id="Vector-7" data-llp-duration="300" data-llp-delay="3400" fill-opacity="0"
+              style="stroke: rgb(255,255,255)" />
+          </svg>
+        </a>
+      </div>
+      <nav class="header-nav">
+        <a class="header-nav__links" href="#decision">Как это работает</a>
+        <a class="header-nav__links" href="#steps">3 простых шага</a>
+        <a class="header-nav__links" href="#reviews">Отзывы</a>
+      </nav>
+
+      <button class="header-btn btn">Личный кабинет</button>
+      <button class="header-btn__mobile">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V15C0 15.55 0.45 16 1 16H15C15.55 16 16 15.55 16 15V14C16 11.34 10.67 10 8 10Z"
+            fill="white" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <!-- /.HEADER -->
+
+    <main class="main">
+
+      <section class="first-screen" id="top">
+        <div class="container">
+          <div class="first-screen__inner">
+            <div class="first-screen__text">
+              <p><span>Everget</span>
+                простой способ
+                погасить займ
+              </p>
+              <p>Cкидка до 70%
+                Оформим за 5 минут
+                Нужен только паспорт</p>
+            </div>
+            <div class="first-screen__calc">
+              <div class="calc-title">
+                <h3>Сумма долга</h3>
+                <span class="calc-title__summ">50 000₽</span>
+              </div>
+              <input class="calc-range" type="range" min="1000" max="200000" value="50000" step="1000">
+              <div class="calc-range-value">
+                <span class="calc-range-value__min">1000₽</span>
+                <span class="calc-range-value__max">Больше 200 000₽</span>
+              </div>
+              <div class="calc-money">
+                <input class="calc-mymoney" type="text" placeholder="Могу заплатить">
+                <span class="calc-mymoney__ru"></span>
+              </div>
+              <div class="calc-commission">
+                <h3>Комиссия
+                  <span class="calc-commission__icon">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5C15 3.36 11.64 0 7.5 0ZM8.25 12.75H6.75V11.25H8.25V12.75ZM9.8025 6.9375L9.1275 7.6275C8.7525 8.01 8.4825 8.355 8.3475 8.895C8.2875 9.135 8.25 9.405 8.25 9.75H6.75V9.375C6.75 9.03 6.81 8.7 6.915 8.3925C7.065 7.9575 7.3125 7.5675 7.6275 7.2525L8.5575 6.3075C8.9025 5.9775 9.0675 5.4825 8.97 4.9575C8.8725 4.4175 8.4525 3.96 7.9275 3.81C7.095 3.5775 6.3225 4.05 6.075 4.7625C5.985 5.04 5.7525 5.25 5.46 5.25H5.235C4.8 5.25 4.5 4.83 4.62 4.41C4.9425 3.3075 5.88 2.4675 7.0425 2.2875C8.1825 2.1075 9.27 2.7 9.945 3.6375C10.83 4.86 10.5675 6.1725 9.8025 6.9375Z"
+                        fill="#A0A4A8" />
+                    </svg>
+                    <div class="calc-commission__info">
+                      Сервис Everget не берет комиссию с заемщиков, а регулирует свои взаимоотношения с кредитором
+                    </div>
+                  </span>
+                </h3>
+                <span class="calc-commission__value">0₽</span>
+              </div>
+              <a href="cabinet.html" class="calc-btn dolg-btn btn">Погасить долг со скидкой</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="decision" id="decision">
+        <div class="container">
+          <div class="section-title decision-title">
+            Как это работает
+          </div>
+          <div class="decision-block">
+            <div class="decision-block__item">
+              <img src="img/item1.png" alt="" class="decision-block__img">
+              <p class="decision-block__text">У вас есть <br>
+                просроченный кредит <br>
+                в МФО или банке</p>
+            </div>
+            <div class="decision-block__item">
+              <img src="img/item2.png" alt="" class="decision-block__img">
+              <p class="decision-block__text">Денег на оплату <br>
+                всего долга <br>
+                нет</p>
+            </div>
+            <div class="decision-block__item">
+              <img src="img/item3.png" alt="" class="decision-block__img">
+              <p class="decision-block__text">Everget добьется <br>
+                скидки до 70% и позволит оплатить долг на сайте <br>
+                за 5 минут</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps" id="steps">
+        <div class="container">
+          <div class="section-title steps-title">
+            3 простых шага
+          </div>
+          <div class="steps-inner">
+            <div class="steps-inner__item">
+              <span class="steps-inner__number">1</span>
+              <span class="steps-inner__text">Заполни данные</span>
+            </div>
+            <div class="steps-inner__item">
+              <span class="steps-inner__number">2</span>
+              <span class="steps-inner__text">Получи предложение</span>
+            </div>
+            <div class="steps-inner__item">
+              <span class="steps-inner__number">3</span>
+              <span class="steps-inner__text">Оплати за<br>
+                пять минут</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <div class="section-title">
+            Отзывы наших клиентов
+          </div>
+          <div class="reviews-slider">
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="reviews-slider__item">
+                    <img class="reviews-slider__img" src="img/AVATAR.png" alt="">
+                    <div class="reviews-slider__info">
+                      <h3 class="reviews-slider__title">Константин
+                        Зарубный</h3>
+                      <p class="reviews-slider__text">Гораздо лучше чем проходить банкротство. Все погасил и никаких
+                        ограничений на будущее и нормальная кредитная история</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews-slider__item">
+                    <img class="reviews-slider__img" src="img/AVATAR3.png" alt="">
+                    <div class="reviews-slider__info">
+                      <h3 class="reviews-slider__title">Виктория
+                        Лебережная</h3>
+                      <p class="reviews-slider__text">Попала в тяжолую финансовую ситуацию но погасить весь долг было
+                        нереально, капали штрафы и проценты. С помощью сервиса удалось добиться скидки в 45% и все
+                        оплатить. Наконец-то я смогу брать телефон с неизвестных номеров и не ждать на том конце
+                        коллектора</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews-slider__item">
+                    <img class="reviews-slider__img" src="img/AVATAR2.png" alt="">
+                    <div class="reviews-slider__info">
+                      <h3 class="reviews-slider__title">Федор
+                        Овсеенко</h3>
+                      <p class="reviews-slider__text">Круто, я до последнего не верил что это работает...
+                        Но погасил свой долг всместо 65 000р всего 20к!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="cabinet.html" class="dolg-btn btn">Погасить долг со скидкой</a>
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-inner__item footer-adress">
+            <h3>Наш адрес</h3>
+            <p>302049</p>
+            <p>Россия, Москва</p>
+            <p>проспект Котиковых 23 к4 </p>
+            <p>офис 394</p>
+          </div>
+          <div class="footer-inner__item footer-documents">
+            <h3>Документы</h3>
+            <p>Согласие на обработку данных
+              Условия использования
+              Публичная оферта
+            </p>
+          </div>
+          <div class="footer-inner__item footer-contacts">
+            <h3>Связаться с нами</h3>
+            <a href="mailto:info@everget.com">info@everget.com</a>
+            <a href="tel:+88009999999">+8 800 999 9999</a>
+            <div class="footer-social">
+              <a href="#"><svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.50016 0.166992H4.75016C3.97662 0.166992 3.23475 0.474283 2.68777 1.02126C2.14079 1.56825 1.8335 2.31011 1.8335 3.08366V4.83366H0.0834961V7.16699H1.8335V11.8337H4.16683V7.16699H5.91683L6.50016 4.83366H4.16683V3.08366C4.16683 2.92895 4.22829 2.78058 4.33768 2.67118C4.44708 2.56178 4.59545 2.50033 4.75016 2.50033H6.50016V0.166992Z"
+                    fill="white" />
+                </svg>
+              </a>
+              <a href="#"><svg width="34" height="12" viewBox="0 0 14 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.4168 0.750006C12.8582 1.14403 12.2397 1.4454 11.5852 1.64251C11.2338 1.23855 10.7669 0.952243 10.2476 0.822297C9.72826 0.69235 9.18153 0.725037 8.68138 0.915938C8.18122 1.10684 7.75175 1.44674 7.45107 1.88967C7.15038 2.33261 6.99299 2.8572 7.00016 3.39251V3.97584C5.97503 4.00242 4.95924 3.77506 4.04325 3.31402C3.12726 2.85297 2.33951 2.17254 1.75016 1.33334C1.75016 1.33334 -0.58317 6.58334 4.66683 8.91667C3.46547 9.73215 2.03434 10.141 0.583496 10.0833C5.8335 13 12.2502 10.0833 12.2502 3.37501C12.2496 3.21252 12.234 3.05044 12.2035 2.89084C12.7988 2.30371 13.219 1.56242 13.4168 0.750006Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-inner__item footer-pay">
+            <h3>Мы поддерживаем</h3>
+            <img src="img/pay.png" alt="">
+          </div>
+        </div>
+        <p class="footer-copyright">
+          Copyright 2020 Everget
+        </p>
+      </div>
+    </footer>
+
+    <div class="popup">
+      <div class="popup-block">
+        <div class="popup-header">
+          <button class="popup-btn">Вход</button>
+          <button class="popup-btn">Регистрация</button>
+        </div>
+        <div class="popup-body">
+          <form class="popup-form" action="#">
+            <input class="popup-input" type="text" placeholder="Фамилия">
+            <input class="popup-input" type="text" placeholder="Имя">
+            <input class="popup-input" type="text" placeholder="Отчество">
+            <input class="popup-input" type="text" placeholder="Серия и номер паспорта">
+            <input class="popup-input" type="tel" placeholder="Номер телефона">
+            <div class="popup-form__check">
+              <input type="checkbox" name="date" id="date">
+              <label for="date">Согласен с правилами передачи персональных данных</label>
+            </div>
+            <a href="cabinet.html" class="btn popup-callback">отправить смс на номер</a>
+          </form>
+        </div>
+        <div class="popup-close">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M31.2525 19.575L27 23.8275L22.7475 19.575C21.87 18.6975 20.4525 18.6975 19.575 19.575C18.6975 20.4525 18.6975 21.87 19.575 22.7475L23.8275 27L19.575 31.2525C18.6975 32.13 18.6975 33.5475 19.575 34.425C20.4525 35.3025 21.87 35.3025 22.7475 34.425L27 30.1725L31.2525 34.425C32.13 35.3025 33.5475 35.3025 34.425 34.425C35.3025 33.5475 35.3025 32.13 34.425 31.2525L30.1725 27L34.425 22.7475C35.3025 21.87 35.3025 20.4525 34.425 19.575C33.5475 18.72 32.1075 18.72 31.2525 19.575ZM27 4.5C14.5575 4.5 4.5 14.5575 4.5 27C4.5 39.4425 14.5575 49.5 27 49.5C39.4425 49.5 49.5 39.4425 49.5 27C49.5 14.5575 39.4425 4.5 27 4.5ZM27 45C17.0775 45 9 36.9225 9 27C9 17.0775 17.0775 9 27 9C36.9225 9 45 17.0775 45 27C45 36.9225 36.9225 45 27 45Z"
+              fill="white" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.wrapper -->
+
+
+
+
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <script src="js/lazy-line-painter-1.9.6.min.js"></script>
+  <script src="js/script.min.js"></script>
+
+
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      // loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      breakpoints: {
+        // when window width is >= 320px
+        992: {
+          slidesPerView: 3,
+        }
+      },
+
+    });
+  </script>
+</body>
+
+</html>

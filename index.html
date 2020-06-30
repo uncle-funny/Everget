@@ -118,15 +118,15 @@
             <div class="first-screen__calc">
               <div class="calc-title">
                 <h3>Сумма долга</h3>
-                <span class="calc-title__summ">50 000₽</span>
+                <span class="calc-title__summ"><span id="calc-title__summ">50000</span> ₽</span>
               </div>
-              <input class="calc-range" type="range" min="1000" max="200000" value="50000" step="1000">
+              <input class="calc-range" id="calc-range" type="range" min="1000" max="200000" value="50000" step="1000" oninput="fun1()">
               <div class="calc-range-value">
                 <span class="calc-range-value__min">1000₽</span>
                 <span class="calc-range-value__max">Больше 200 000₽</span>
               </div>
               <div class="calc-money">
-                <input class="calc-mymoney" type="text" placeholder="Могу заплатить">
+                <input class="calc-mymoney" type="text" placeholder="Могу заплатить" id="calc-mymoney">
                 <span class="calc-mymoney__ru"></span>
               </div>
               <div class="calc-commission">
@@ -142,7 +142,7 @@
                     </div>
                   </span>
                 </h3>
-                <span class="calc-commission__value">0₽</span>
+                <span class="calc-commission__value"><span id="calc-commission__value">1500</span>₽</span>
               </div>
               <a href="cabinet.html" class="calc-btn dolg-btn btn">Погасить долг со скидкой</a>
             </div>

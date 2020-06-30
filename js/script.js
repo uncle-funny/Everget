@@ -1,5 +1,27 @@
 'use strict';
 
+
+function fun1() {
+  var rng=document.getElementById('calc-range'); //rng - это Input
+  var p=document.getElementById('calc-title__summ'); // 
+  var k=document.getElementById('calc-commission__value'); // 
+  var m=document.getElementById('calc-mymoney'); // 
+  p.innerHTML = rng.value;
+
+  if (rng.value < 50000){
+    k.innerHTML = Math.round(rng.value * 0.02);    
+  }
+  if (rng.value >= 50000 && rng.value < 100000){
+    k.innerHTML = Math.round(rng.value * 0.03);    
+  } 
+  if (rng.value >= 100000 && rng.value < 150000){
+    k.innerHTML = Math.round(rng.value * 0.04);    
+  }
+  if (rng.value >= 150000 && rng.value <= 200000){
+    k.innerHTML = Math.round(rng.value * 0.05);    
+  }  
+}
+
 (function(){ 
 
   document.onreadystatechange = () => {
